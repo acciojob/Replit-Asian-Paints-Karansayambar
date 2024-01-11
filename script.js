@@ -13,5 +13,10 @@ changeColor.addEventListener("click", ()=>{
 		}
 	});
 });
-
+reset.addEventListener("click", () => {
+    gridItems.forEach(item => {
+        item.style.backgroundColor = "transparent";
+		item.style.color = "black";
+    });
+});
 

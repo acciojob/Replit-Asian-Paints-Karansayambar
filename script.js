@@ -7,7 +7,7 @@ const reset = document.getElementById("reset_button");
 changeColor.addEventListener("click", () => {
     const blockId = blockIdInput.value;
     const colorId = colorIdInput.value;
-    
+
     gridItems.forEach(item => {
         if (item.id === `grid-item-${blockId}`) {
             item.style.backgroundColor = colorId;

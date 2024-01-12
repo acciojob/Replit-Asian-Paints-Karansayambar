@@ -1,5 +1,5 @@
 const blockIdInput = document.getElementById("block_id");
-const colorIdInput = document.getElementById("color_id");
+const colorIdInput = document.getElementById("colour_id");
 const gridItems = document.querySelectorAll(".grid-item");
 const changeColor = document.getElementById("change_button");
 const reset = document.getElementById("reset_button");

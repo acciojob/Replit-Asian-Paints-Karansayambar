@@ -11,7 +11,7 @@ changeColor.addEventListener("click", () => {
     gridItems.forEach(item => {
         if (item.id === `grid-item-${blockId}`) {
             item.style.backgroundColor = colorId;
-            item.style.color = "white";
+            item.style.color = "rgb(255, 0, 0)";
         }
     });
 });

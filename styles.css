@@ -17,3 +17,6 @@
 #change_button, #reset_button {
     margin-top: 20px;
 }
+#grid-item-3{
+	background-color:rgb(255, 0, 0);
+}
